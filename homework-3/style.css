@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+.header{
+   width: 940px;
+   text-align: center;
+   margin: 0 auto;
+   /*display: inline-block;*/
+}
+.menu{
+   display: inline-block;
+}
+
+.menu_list_item_link{
+   /*убрать подчеркивание под ссылкой*/
+   text-decoration: none;
+   margin-left:60px; 
+   margin-right: 60px;
+   color: #626262;
+    /*написать слово БОЛЬШИМИ буквами*/
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size:14px;
+    /*установить ВЕС(ЖИРНОСТЬ) шрифта*/
+    font-weight: 400;
+    text-align:center
+}
+
+.menu_list_item_link:hover {
+   color: #03A9F4;
+}
+
+.life_card_h5{
+color:#B4AD9E;
+font-size:14px;
+text-align:left;
+font-family: 'Ubuntu', sans-serif;
+/*установить ВЕС(ЖИРНОСТЬ) шрифта*/
+font-weight: 300;
+ /*написать слово БОЛЬШИМИ буквами*/
+ text-transform: uppercase;
+}
+
+.menu_list_item {
+list-style:none;
+display: inline-block;
+/*margin-left: 300px;*/
+}
+
+.main{
+text-align:center ;
+margin: 0 auto;
+width: 940px;
+}
+.div{
+   width:300px;
+   text-align:left;
+   display:inline-block;
+   margin-left :100px;
+
+}
+
+.section{
+   display:inline-block
+
+}
+.life_card_img{
+    width: 420px;
+    /*ставим height: auto чтобы сохранялись пропорции картинки*/
+    height: auto;
+
+   }
+   .life_card {
+      width: 350px;
+      text-align: left;
+      /*этот селектор дает команду элементам выстоиться в несколько колонок*/
+      display: inline-block;
+      margin-right: 20px;
+  }
+
+.life_card_h2{
+      color: #626262;
+      font-family: 'Playfair Display', serif;
+      font-size:30px;
+      /*установить ВЕС(ЖИРНОСТЬ) шрифта*/
+      font-weight: 400;
+      text-align:left;
+}
+.life_card_p{ 
+   color: #626262;
+   font-family: 'Playfair Display', serif;
+   font-size:14px;
+   /*установить ВЕС(ЖИРНОСТЬ) шрифта*/
+   font-weight: 400;
+   text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
