@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat&family=Roboto&display=swap');
+
+/*@import 'reset.css';*/
+
+.header {
+    width: 1200px;
+    /*в HEADER весь текст показывать по центру, все строчные и строчно-блочные элементы*/
+    text-align: center;
+    /*выстроить по центру БЛОЧНЫЕ элементы*/
+    margin: 0 auto;
+}
+
+.h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+
+}
+
+.h1::after {
+    content: '';
+    display: block;
+    width: 61px;
+    height: 4px;
+    background-color: #F38181;
+    /*поставить блочный элемент по центру*/
+    margin: 32px auto 0 auto;
+}
+
+.logo {
+    /*перестроить список из столбца в строку*/
+    display: inline-block;
+    margin-right: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* color:#95E1D3; */
+}
+
+.logo_link {
+    width: 150px;
+    /*убрать подчеркивание под ссылкой*/
+    text-decoration: none;
+    color: #95E1D3;
+}
+
+.logo_link:hover {
+    color: #F38181;
+}
+
+.big_letter {
+    text-transform: uppercase;
+}
+
+.big_letter::first-letter {
+    font-weight: 800;
+}
+
+.menu {
+    /*поставить в линию .logo и .menu*/
+    display: inline-block;
+}
+
+.menu_list_item {
+    /*убрать точки в списке перед пунктами списка*/
+    list-style: none;
+    /*перестроить список из столбца в строку*/
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-right: 55px;
+}
+
+.menu_list_item_link:hover {
+    color: #F38181;
+}
+
+.menu_list_item_link {
+    /*убрать подчеркивание под ссылкой*/
+    text-decoration: none;
+    margin: 0 auto;
+    color: #95E1D3;
+}
+
+.main {
+    /* background-color: chocolate; */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section {
+    /* background-color: aqua; */
+    /*задает flex-контейнер c элементами block*/
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.section_cards {
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+
+.service_card {
+    /* border-style: dashed; */
+    width: 320px;
+    height: 70px;
+    margin-right: 65px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    
+}
+
+.service_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+    font-weight: 400;
+}
+
+.service_name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+     
+}
+
+.service_img {
+    padding-right: 30px;
+}
+
+.team_card {
+    width: 381px;
+    height: 543px;
+    margin-right: 27px;
+    margin-bottom: 165px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.team_card>p {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    text-align: center;
+}
+
+.text_team{
+    width: 941px;
+    margin:0 auto;
+    padding-top:46px ;
+    padding-bottom:91px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.team_name{
+margin-top: 20px;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+font-weight: 400;
+}
