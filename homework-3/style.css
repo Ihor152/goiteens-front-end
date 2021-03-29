@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+@import "reset.css";
 .header{
    width: 940px;
    text-align: center;
    margin: 0 auto;
-   /*display: inline-block;*/
+   margin-bottom: 102px; 
 }
 .menu{
    display: inline-block;
@@ -38,6 +40,7 @@ font-family: 'Ubuntu', sans-serif;
 font-weight: 300;
  /*написать слово БОЛЬШИМИ буквами*/
  text-transform: uppercase;
+ margin-bottom: 28px;
 }
 
 .menu_list_item {
@@ -67,16 +70,18 @@ width: 940px;
     width: 420px;
     /*ставим height: auto чтобы сохранялись пропорции картинки*/
     height: auto;
+    margin-bottom: 32px;
 
    }
    .life_card {
-      width: 350px;
+      width: 420px;
       text-align: left;
       /*этот селектор дает команду элементам выстоиться в несколько колонок*/
       display: inline-block;
-      margin-right: 20px;
-  }
-
+      margin-right: 60px;
+}
+.life_card:nth-child(2n+2) {
+   margin-right: 0;}
 .life_card_h2{
       color: #626262;
       font-family: 'Playfair Display', serif;
@@ -84,6 +89,7 @@ width: 940px;
       /*установить ВЕС(ЖИРНОСТЬ) шрифта*/
       font-weight: 400;
       text-align:left;
+      margin-bottom: 34px;
 }
 .life_card_p{ 
    color: #626262;
@@ -92,8 +98,15 @@ width: 940px;
    /*установить ВЕС(ЖИРНОСТЬ) шрифта*/
    font-weight: 400;
    text-align:left;
+   margin-bottom: 130px;
 }
-
+.load_button{
+   width: 165px ;
+   height:61px;
+   font-family: 'Playfair Display', serif;
+   font-size: 20px;
+   font-weight: 400;
+}
 
 
 
