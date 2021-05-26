@@ -40,6 +40,7 @@
     font-weight: 400;
     text-align: center;
     color:#333333;
+    margin-bottom: 22px;
 }
 
 .h1 {
@@ -248,7 +249,7 @@
 .team_card {
     width: 381px;
     
-    margin-bottom: 165px;
+    /* margin-bottom: 165px; */
     text-align: center;
     flex-direction: column;
    
@@ -272,6 +273,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color:#999999;
+    
 }
 .team_name{
     margin-top: 20px;
